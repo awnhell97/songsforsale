@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#topBar {
+    top: 0;
+    position: fixed;
+    width: 94vw;
+    height: 10vh;
+    background: black;
+    padding: 2vh 3vw;
+}
+
+#barLink {
+    float: right;
+    height: 100%;
+    line-height: 10vh;
+    text-align: center;
+    width: 10vw;
+    background: red;
+}
+
+#main {
+    margin-top: 14vh;
+    padding: 0 15vw;
+    height: 3000px;
+}
+
+#logo {
+    background: url("../assets/example.jpg");
+    width: 10vw;
+    height: 10vh;
+    background-size: cover;
+}
