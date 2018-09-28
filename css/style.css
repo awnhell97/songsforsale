@@ -109,3 +109,19 @@ span {
 #formSection {
     height: 1000px;
 }
+
+#formPic {
+    max-width: 100%;
+}
+
+#formLeft {
+    padding: 50px 0;
+    margin-left: 10%;
+    width: 40%;
+    float: left;
+}
+
+#formHeader {
+    font-size: 2vw;
+    font-weight: bold;
+}
