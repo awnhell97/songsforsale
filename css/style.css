@@ -10,21 +10,27 @@ body {
     height: 70px;
     background: black;
     padding: 10px 3vw;
-    -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
-    transition: 1s;
+    -webkit-transition: .4s; /* For Safari 3.1 to 6.0 */
+    transition: .4s;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #barLink {
+    height: 100%;
     float: right;
-    line-height: 70px;
     text-align: center;
+    margin: auto;
     width: 10vw;
     background: red;
 }
 
 @media (max-width: 900px) {
     #topBar {
-        height: 8vh;
+        height: 80px;
     }
 }
 
