@@ -1,7 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-    background: #333;
 }
 
 #topBar {
@@ -40,9 +39,9 @@ span {
 
 #main {
     max-width: 1200px;
-    margin-top: 14vh;
-    padding: 0 12vw;
-    height: 3000px;
+    padding: 14vh 12vw;
+    background: #333;
+    overflow: hidden;
 }
 
 #logo {
@@ -105,4 +104,8 @@ span {
     margin-bottom: 50px;
     font-size: 2.3vw;
     font-weight: bold;
+}
+
+#formSection {
+    height: 1000px;
 }
