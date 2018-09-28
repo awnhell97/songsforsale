@@ -7,23 +7,31 @@ body {
     top: 0;
     position: fixed;
     width: 94vw;
-    height: 10vh;
+    height: 70px;
     background: black;
-    padding: 2vh 3vw;
+    padding: 10px 3vw;
+    -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+    transition: 1s;
 }
 
 #barLink {
     float: right;
-    height: 100%;
-    line-height: 10vh;
+    line-height: 70px;
     text-align: center;
     width: 10vw;
     background: red;
 }
 
+@media (max-width: 900px) {
+    #topBar {
+        height: 8vh;
+    }
+}
+
 #main {
+    max-width: 1200px;
     margin-top: 14vh;
-    padding: 0 15vw;
+    padding: 0 12vw;
     height: 3000px;
 }
 
