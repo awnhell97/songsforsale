@@ -26,7 +26,8 @@ span {
     text-align: center;
     margin: auto;
     width: 10vw;
-    background: red;
+    color: white;
+    font-weight: bold;
     -webkit-transition: .4s; /* For Safari 3.1 to 6.0 */
     transition: .4s;
 }
