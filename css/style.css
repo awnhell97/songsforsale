@@ -21,11 +21,14 @@ span {
 
 #barLink {
     height: 100%;
+    line-height: 70px;
     float: right;
     text-align: center;
     margin: auto;
     width: 10vw;
     background: red;
+    -webkit-transition: .4s; /* For Safari 3.1 to 6.0 */
+    transition: .4s;
 }
 
 @media (max-width: 900px) {
