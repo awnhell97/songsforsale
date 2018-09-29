@@ -43,14 +43,14 @@
     <div id="formLeft">
         <div id="formHeader">Dovah & Kin Inquiry Form</div>
         <p class="italic small"><span class="red">*</span> INDICATES REQUIRED FIELD</p>
-        <form action="" method="post">
+        <form action="mailto:vtreaba@gmail.com" method="post">
             <p>NAME <span class="red">*</span></p>
-            <input type="text" placeholder="First" id="f"/>
-            <input type="text" placeholder="Last" id="l"/>
+            <input type="text" placeholder="First" id="f" name="firstName"/>
+            <input type="text" placeholder="Last" id="l" name="lastName"/>
             <p>EMAIL <span class="red">*</span></p>
-            <input type="text" id="e"/>
+            <input type="text" id="e" name="email"/>
             <p>DESCRIBE YOUR PROJECT <span class="red">*</span></p>
-            <textarea id="t"></textarea>
+            <textarea id="t" name="description"></textarea>
             <br><br><input class="formSub" type="submit" value="Submit"/>
         </form>
     </div>

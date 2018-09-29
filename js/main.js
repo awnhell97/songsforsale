@@ -1,8 +1,12 @@
 window.addEventListener('load', function() {
 
-    var expanded = false;
+    var expanded = !window.pageYOffset > 0;
 
-    window.addEventListener("scroll", function() {
+    expand();
+
+    window.addEventListener("scroll", expand);
+
+    function expand() {
         if(!expanded && window.pageYOffset > 0) {
             expanded = true;
             document.getElementById("topBar").style.height = "50px";
@@ -16,6 +20,6 @@ window.addEventListener('load', function() {
             document.getElementById("topBar").style.background = "";
             document.getElementById("barLink").style.color = "white";
         }
-    });
+    }
 
 });

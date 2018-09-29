@@ -45,6 +45,7 @@ span {
     font-weight: bold;
     -webkit-transition: .4s; /* For Safari 3.1 to 6.0 */
     transition: .4s;
+    font-size: 1.3vw;
 }
 
 @media (max-width: 900px) {
