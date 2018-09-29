@@ -3,6 +3,22 @@ body {
     margin: 0;
 }
 
+::-webkit-scrollbar
+{
+    width: 0.5vw;  /* for vertical scrollbars */
+    height: 0.5vw; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: rgba(0, 0, 0, 0.5);
+}
+
 #topBar {
     top: 0;
     position: fixed;
@@ -107,7 +123,6 @@ span {
 }
 
 #formSection {
-    height: 1000px;
 }
 
 #formPic {
@@ -124,4 +139,49 @@ span {
 #formHeader {
     font-size: 2vw;
     font-weight: bold;
+}
+
+.red {
+    color: orangered;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small {
+    font-size: 1vw;
+}
+
+.formSub {
+    float: right;
+    background: white;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    margin-right: 20%
+}
+
+.formSub:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 1px 4px 0;
+}
+
+#f {
+    width: 20%
+}
+
+#l {
+    width: 30%;
+}
+
+#e {
+    width: 50%;
+}
+
+#t {
+    width: 50%;
+    height: 200px;
+    word-break: break-word;
 }
